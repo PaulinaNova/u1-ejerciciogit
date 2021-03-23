@@ -1,0 +1,75 @@
+html{
+    background: rgb(252, 251, 212);
+}
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin: auto;
+    background: rgb(252, 251, 212);
+    width: 1024px;
+}
+
+label{
+    color: gray;
+    font-size: 2rem;
+}
+
+li{
+    padding: 3px;
+    color: #5394aa;
+}
+
+table{
+    color:gray;
+    margin: auto;
+    border: 1px solid gray ;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px;
+}
+
+th{
+    padding: 5px;
+    background: lightgrey;
+}
+
+tr:hover{
+    color: gray;
+    background: rgb(221, 233, 236);
+}
+
+ul > li {
+    list-style: none;
+    text-align: center;
+}
+
+ul>li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+ul>li a:link{
+    color:gray;
+}
+
+ul>li a:visited{
+    color: gray
+}
+
+ul > li a:hover{
+    color: white;
+    background: lightgray;
+}
+
+ul > li a:active{
+    background: gray;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+}
